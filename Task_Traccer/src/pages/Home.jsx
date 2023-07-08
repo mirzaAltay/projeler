@@ -5,7 +5,6 @@ import TaskList from "../components/taskList/TaskList";
 
 const Home = () => {
   const [isopen, setİsopen] = useState(false);
-  const [text, setText] = useState("Show Add Task Bar");
   const [task,setTask] = useState([]);
 
   const url = "https://63516c99dfe45bbd55bfd9a2.mockapi.io/api/tasks";

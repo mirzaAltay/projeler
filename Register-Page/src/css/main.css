@@ -1,0 +1,100 @@
+.App {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.compare {
+  background-color: #272f39;
+  border: none;
+  border-radius: 50%;
+  color: rgba(255, 255, 255, 0.753);
+  padding: 50px;
+  position: absolute;
+  right: -225px;
+}
+.compare .check {
+  text-decoration: line-through;
+  opacity: 0.5;
+  transition: all 1s;
+}
+.compare p {
+  color: gray;
+}
+
+.container {
+  border: 1px solid;
+  border-radius: 50px;
+  padding: 100px;
+  background: #272f39;
+  text-align: center;
+}
+.container h1 {
+  color: #fff;
+  margin: 10px 0 30px 0;
+  font-size: 2.5em;
+}
+.container .icon {
+  color: #fff;
+  font-size: 3em;
+  color: #f26e63;
+}
+.container .form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  position: relative;
+}
+.container .form input {
+  margin: 10px 0;
+  border: none;
+  border-bottom: 1px solid #fff;
+  padding: 15px;
+  outline: none;
+  background: none;
+  color: #fff;
+}
+.container .form input::-moz-placeholder {
+  color: #fff;
+}
+.container .form input:-ms-input-placeholder {
+  color: #fff;
+}
+.container .form input::placeholder {
+  color: #fff;
+}
+.container .form .eye-icon {
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.747);
+  font-size: 1.1em;
+}
+.container .form .eye1 {
+  top: 223px;
+}
+.container .form .eye2 {
+  top: 290px;
+}
+.container .form button {
+  margin-top: 30px;
+  padding: 15px;
+  font-size: 1.2em;
+  background: linear-gradient(45deg, #f26e63, rgba(140, 49, 41, 0.8274509804));
+  color: #fff;
+  cursor: pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #1b252e;
+}

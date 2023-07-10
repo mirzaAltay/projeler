@@ -12,7 +12,9 @@ export default function Weather() {
 
     const handleClick = async () => {
         const baseURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&lang=tr&appid={YOUR_API_KEY}&units=metric`
+
         console.log("click oldu", baseURL);
+        
         //await fetch(baseURL).then(res => res.json()).then(data => console.log(data)).catch(err => console.log("Hatanız : ", err));
         await axios(baseURL).then(async data => {
             await setInfo(data.data)

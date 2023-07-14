@@ -1,0 +1,25 @@
+.comment {
+    margin-top: 40px;
+
+    .header {
+        display: flex;
+        justify-content: space-around;
+
+        div {
+            font-weight: bold;
+        }
+    }
+
+    .data {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+        border: 1px solid #dddddd;
+        padding: 8px;
+
+        &:nth-child(even) {
+            background-color: #dddddd;
+
+        }
+    }
+}

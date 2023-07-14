@@ -1,0 +1,51 @@
+.form {
+    &__content {
+        &__item {
+            margin-bottom: 20px;
+
+            label {
+                display: block;
+                font-size: 14px;
+                font-weight: 600;
+                color: #343A46;
+                margin-bottom: 10px;
+            }
+
+            input,
+            textarea {
+                width: 100%;
+                padding: 10px;
+                border: 1px solid #CED4DA;
+                outline: none;
+                color: #343A46;
+                border-radius: 5px;
+                transition: .3s ease-in-out;
+            }
+
+            input:focus,
+            textarea:focus {
+                box-shadow: 0 0 0 3px rgb(140 140 140 / 30%);
+            }
+
+            textarea {
+                resize: none;
+                height: 100px;
+            }
+        }
+    }
+
+    &__button {
+        text-align: right;
+
+        button {
+            width: 180px;
+            background-color: #FF3200;
+            border: none;
+            border-radius: 5px;
+            height: 33px;
+            color: #fff;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    }
+}
